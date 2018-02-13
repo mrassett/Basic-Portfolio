@@ -1,0 +1,72 @@
+section {
+    float:left;
+    display:block;
+    box-sizing: 600px, 600px;
+    border: 5px solid salmon;
+    padding-top:10px;
+    position: absolute;
+}
+aside{
+    position: absolute;
+    right:40px;
+    width:270px;
+    border:3px solid black;
+    padding:10px;
+    float:right;
+    margin-top:10px;
+    display:block;
+    object-fit: none;
+}
+h3{
+    font-size: large;
+    padding-top:6px;
+}
+h2{
+    padding-left:15px;
+}
+body {
+    width: 960px;
+    padding:10px; 
+}  
+.clear{
+    clear: both;
+}
+#icons img{
+    width:70px;
+    height:70px;
+}
+.mypic {
+    float:left;
+    padding-right:15px;
+    padding-left:15px;
+}
+#first {
+   display:block;
+   float:left;
+   width: 400px;
+}
+nav{
+    float:top;
+    margin: auto;
+}
+li{
+    float:right;
+    display:block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+header{
+    padding: 5px;
+    float:top;
+    display:block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+h1{
+    padding-top: 10px;
+    margin: none;
+    float: left;
+    float:top;
+}
