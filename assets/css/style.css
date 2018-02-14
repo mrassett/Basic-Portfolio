@@ -1,12 +1,13 @@
 section {
     float:left;
     display:block;
-    box-sizing: 600px, 600px;
+    width: 650px;
+    height:550px;
     border: 5px solid salmon;
     padding-top:10px;
     position: absolute;
 }
-aside{
+aside {
     position: absolute;
     right:40px;
     width:270px;
@@ -17,21 +18,25 @@ aside{
     display:block;
     object-fit: none;
 }
-h3{
+h3 {
     font-size: large;
     padding-top:6px;
+    padding-right:50px;
 }
-h2{
+h2 {
     padding-left:15px;
 }
+
 body {
-    width: 960px;
+    width: 940px;
+    height:50px;
     padding:10px; 
+   
 }  
-.clear{
+.clear {
     clear: both;
 }
-#icons img{
+#icons img {
     width:70px;
     height:70px;
 }
@@ -45,28 +50,36 @@ body {
    float:left;
    width: 400px;
 }
-nav{
+nav {
     float:top;
     margin: auto;
+    background-color: #ffffff;
+  
 }
-li{
-    float:right;
+li {
+float:top;
+    float: right;
     display:block;
-    text-align: center;
+    text-align: right;
     padding: 16px;
     text-decoration: none;
 }
-header{
-    padding: 5px;
-    float:top;
-    display:block;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
+div.top {
+    padding-bottom:20px;
+    padding-left:16px;
+    width: 650px;
+    height:50px;
+    display: block;
+    border-bottom: 2px solid #cccccc;
 }
-h1{
-    padding-top: 10px;
-    margin: none;
+div{
+    display:block;
+}
+h1 {
+    padding-bottom: 100px;
+    margin-top: 10px;
     float: left;
     float:top;
+    border:20px;
+    text-align: left;
 }
