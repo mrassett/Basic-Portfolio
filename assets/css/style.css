@@ -1,7 +1,8 @@
 
 header{
     width: 100%;
-    margin: inherit;
+    margin-left:60px;
+    margin-bottom:40px;
 }
 
 header li {
@@ -25,19 +26,19 @@ section{
     float:left;
     display:block;
     width: 650px;
-    height:550px;
-    border: 5px solid salmon;
-    padding-top:10px;
+    height:500px;
+    border: 2px solid #cccccc;
     position: absolute;
     background-color: white;
+    margin-left:60px;
 }
 aside {
-    right:auto;
-    border: 1px #dddddd; 
+    border: 3px solid #dddddd; 
     padding:10px;
-    float:right;
     object-fit: none;
     background-color: white;
+    margin-left: 82.3%;
+    width:270px;
 }
 h3 {
     font-size: 20px;
@@ -69,12 +70,9 @@ body {
     padding-left:15px;
 }
 #first {
-   display:block;
-   float:left;
-   width: 400px;
+   margin-left:12px;
 }
 nav {
-    float:top;
     margin: auto;
     background-color: #ffffff;
   
@@ -114,10 +112,32 @@ article {
     width: 100%;
     background: #666666;
     text-align: center;
-    margin-bottom: 10px;
+    height:40px;
+    border-top: 5px solid  #4aaaa5;
 }
 
 .span { display: block;
     margin-top: 30px;
+
+}
+div#right{
+   padding-left:17px;
+}
+p   {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #666666;
+    word-spacing: 2px;
+    line-height: 1.4em;
+}
+
+aside+img{
+    height:60px;
+    width:60px;
+}
+.footer p{
+    color:  #cccccc;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+    word-spacing: .1px;
 
 }
